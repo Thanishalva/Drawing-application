@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <div id="toolbar">
+            <h2>Draw</h2>
+            <label for="color">Select Color</label>
+            <input type="color" id="color">
+            <label>Select Thickness</label>
+            <input type="number" id="thickness" min="1" max="10">
+            <button onclick="clearCanvas()">Clear</button>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
